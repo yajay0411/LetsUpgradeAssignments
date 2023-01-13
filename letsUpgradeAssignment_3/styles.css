@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    font-family: 'SF Pro', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.774);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.fa-apple {
+    font-size: 1.5rem;
+    color: white;
+    padding: 0em 1.5em;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: rgb(170, 165, 165);
+    font-size: .8rem;
+    padding: 0em 2em;
+}
+
+.fa-magnifying-glass,
+.fa-bag-shopping {
+    font-size: 1.2rem;
+    color: white;
+    padding: 0em 1.5em;
+}
+
+.header_container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.header_heading {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-top: 2em;
+}
+
+.header_subheading {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.header_link_container {
+    color: rgb(52, 140, 255);
+    font-size: 1.5rem;
+}
+
+.header_link {
+    text-decoration: none;
+    color: rgb(52, 140, 255);
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: .5em;
+    transition: all 500ms;
+}
+
+.header_link:hover {
+    text-decoration: underline;
+}
+
+.header_image {
+    width: 60%;
+    height: 80vh;
+    background-image: url("https://www.apple.com/v/iphone-14-pro/c/images/meta/iphone-14-pro_overview__e414c54gtu6a_og.png?202212150113");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.main_heading {
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-top: 2em;
+}
+
+.main_subheading {
+    color: black;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.main_link_container {
+    color: rgb(52, 140, 255);
+    font-size: 1.5rem;
+}
+
+.main_link {
+    text-decoration: none;
+    color: rgb(52, 140, 255);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: .5em;
+    transition: all 500ms;
+
+}
+
+.main_link:hover {
+    text-decoration: underline;
+}
+
+.main_image {
+    width: 50%;
+    height: 80vh;
+    background-image: url("https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-iPhone-14-Plus-hero-220907_Full-Bleed-Image.jpg.large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em;
+}
+
+
+.section_3_container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.section_3_heading,
+.section_fa-apple {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 1px;
+    margin-top: 1em;
+}
+
+.section_3_para {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.section_3_subheading {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.section_3_image {
+    width: 80%;
+    height: 80vh;
+    background-image: url("https://www.apple.com/v/apple-watch-series-8/b/images/overview/hero/hero_static__c9d1bk9frtua_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 1em;
+}
