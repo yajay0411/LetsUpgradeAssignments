@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    font-family: monospace;
+    overflow-x: hidden;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+#para_container{
+    width: 300px;
+    margin: auto;
+    font-size: 1rem;
+    padding: 1em;
+    border-radius: 10px;
+}
